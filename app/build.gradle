@@ -2,11 +2,20 @@ apply plugin: 'com.android.application'
 apply plugin: 'com.google.gms.google-services'
 
 android {
-    compileSdkVersion 28
+
+    namespace 'mgarzon.createbest.productcatalog'
+
+
+
+    compileSdkVersion 33
+
     defaultConfig {
+
         applicationId "mgarzon.createbest.productcatalog"
-        minSdkVersion 15
-        targetSdkVersion 28
+
+        minSdkVersion 21
+
+        targetSdkVersion 33
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
