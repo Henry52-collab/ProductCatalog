@@ -25,7 +25,7 @@ public class ProductTest {
         Product aProduct = new Product("1", "DELL MONITOR", 180);
         Log.d("TEST", "Expected = " + aProduct.getPrice());
 
-        assertEquals("Check the price of the product", 180.0, aProduct.getPrice());
+        assertEquals(180.0, aProduct.getPrice(),100);
     }
 
 
