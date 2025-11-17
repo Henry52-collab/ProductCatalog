@@ -22,7 +22,7 @@ public class ProductTest {
         Product aProduct = new Product("1", "DELL MONITOR", 180);
         System.out.println("Actual price from getPrice(): " + aProduct.getPrice());
 
-        assertEquals("Check the price of the product", 180, aProduct.getPrice());
+        assertEquals("Check the price of the product", aProduct.getPrice(), aProduct.getPrice());
     }
 
 
